@@ -1,0 +1,13 @@
+/* 親から子に */
+#parent>p {
+  color: red;
+}
+
+/* 子から孫に */
+.child>#grandchild {
+  color: skyblue;
+}
+/* 親から孫に ←優先でCSSが設定される*/
+#parent #grandchild {
+  color: blue;
+}
