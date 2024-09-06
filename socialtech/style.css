@@ -13,24 +13,9 @@ body {
   font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
 }
 
-/* ヘッダー */
-header {
-  display: flex;
-  justify-content: space-between;
-}
-
 /* ナビゲーションのレイアウト */
 #nav-pc {
   font-size: 14px;
-}
-
-#nav-pc ul {
-  display: flex;
-  padding-left: 0;
-}
-
-#nav-pc li {
-  list-style: none;
 }
 
 /* ナビゲーションのリンクの装飾設定 */
@@ -43,20 +28,56 @@ header {
 #nav-pc a:hover {
   text-decoration: underline;
 }
+
+/* ヘッダー */
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#nav-pc ul {
+  display: flex;
+  padding-left: 0;
+}
+
+#nav-pc li {
+  list-style: none;
+}
+
 /* メインビジュアル */
-#main-visual{
+#main-visual {
   position: relative;
   height: 470px;
 }
-#main-message{
-position: absolute;
-top: 0;
-left: 0;
-background-color: #2710d5;
-color: #ffffff;
-border-radius: 0 0 476px 0;
-max-width: 620px 0;
-height: 100%;
-width: 100%;
-z-index: 11;
+
+#main-message {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #2710d5;
+  color: #ffffff;
+  border-radius: 0 0 476px 0;
+  max-width: 620px;
+  height: 100%;
+  width: 100%;
+  z-index: 11;
+}
+
+#main-message>h1 {
+  font-size: 60px;
+  margin: 100px 0 0 50px;
+}
+
+#main-message>p {
+  font-size: 28px;
+  margin: 0 0 0 50px;
+}
+
+#main-visual>img {
+  max-width: 620px;
+  border-radius: 476px 0 0 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10;
 }
