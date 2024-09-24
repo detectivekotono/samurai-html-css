@@ -79,19 +79,8 @@ PC用のスタイル
   #nav-pc {
     display: none;
   }
-
-  #menu-sp {
-    display: none;
-  }
-
-  #nav-sp {
-    display: none;
-  }
-
   /* ハンバーガーメニュー */
   #menu-sp {
-    display: block;
-    background-color: transparent;
     float: right;
     padding: 0;
     border: none;
