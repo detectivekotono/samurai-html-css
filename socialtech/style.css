@@ -18,6 +18,15 @@ body {
   font-size: 14px;
 }
 
+#nav-pc ul {
+  display: flex;
+  padding-left: 0;
+}
+
+#nav-pc li {
+  list-style: none;
+}
+
 /* ナビゲーションのリンクの装飾設定 */
 #nav-pc a {
   text-decoration: none;
@@ -27,6 +36,12 @@ body {
 
 #nav-pc a:hover {
   text-decoration: underline;
+}
+
+/* スマホ用ナビを非表示 */
+#nav-sp,
+#menu-sp {
+  display: none;
 }
 
 /* ヘッダー */
@@ -542,5 +557,58 @@ footer {
 
   #sns>a {
     margin-right: 30px;
+  }
+
+  /* メインビジュアル */
+  #main-visual {
+    position: relative;
+    height: 470px;
+  }
+
+  #main-visual>div {
+    text-align: center;
+    height: 280px;
+  }
+
+  #main-visual h1 {
+    font-size: 28px;
+    margin: 90px 0 0 0;
+  }
+
+  #main-visual>div>p {
+    margin: 0;
+    font-size: 15px;
+  }
+
+  #main-visual>img {
+    width: 100%;
+    border-radius: 476px 0 0 0;
+    top: auto;
+    bottom: 0;
+  }
+
+  /* 見出し */
+  h2 {
+    margin: 15px 0 15px 0;
+  }
+
+  h3 {
+    font-size: 24px;
+    margin: 10px 0 0 0;
+  }
+
+  /* ミッション */
+  #mission {
+    margin: 20px 0 20px 0;
+    padding: 0 20px 0 20px;
+  }
+
+  #mission-flex {
+    flex-direction: column;
+  }
+
+  #mission-flex>div {
+    width: 100%;
+    margin: 0;
   }
 }
