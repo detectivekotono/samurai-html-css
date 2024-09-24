@@ -76,6 +76,10 @@ PC用のスタイル
   }
 
   /* PC用ナビゲーション非表示 */
+  #nav-pc {
+    display: none;
+  }
+
   #menu-sp {
     display: none;
   }
