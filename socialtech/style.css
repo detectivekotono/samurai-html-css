@@ -612,3 +612,31 @@ footer {
     margin: 0;
   }
 }
+/*プロダクト*/
+#product{
+  margin:0;
+  padding:10px 20px 0 20px;
+}
+/*外枠*/
+#product-left,#product-right{
+width: 100%;
+margin: 0;
+}
+/*画像・説明の枠*/
+#product-left>div,#product-right>div{
+  height: auto;
+  margin: 0;
+}
+/*説明文の枠*/
+.product-explain{
+  position: relative;
+  margin: 0;
+}
+.product-explain>h3{
+  margin: 10px 0 10px 0;
+  font-size: 24px;
+}
+/*もっと見るボタン*/
+#product-more{
+  text-align: left;
+}
