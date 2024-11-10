@@ -698,4 +698,15 @@ footer {
     margin-bottom: 20px;
   }
 
+  .tableheader {
+    width: 50px;
+  }
+
+  .cell {
+    padding: 20px;
+  }
+
+  #company>iframe {
+    height: 240px;
+  }
 }
