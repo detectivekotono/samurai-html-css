@@ -611,32 +611,84 @@ footer {
     width: 100%;
     margin: 0;
   }
-}
-/*プロダクト*/
-#product{
-  margin:0;
-  padding:10px 20px 0 20px;
-}
-/*外枠*/
-#product-left,#product-right{
-width: 100%;
-margin: 0;
-}
-/*画像・説明の枠*/
-#product-left>div,#product-right>div{
-  height: auto;
-  margin: 0;
-}
-/*説明文の枠*/
-.product-explain{
-  position: relative;
-  margin: 0;
-}
-.product-explain>h3{
-  margin: 10px 0 10px 0;
-  font-size: 24px;
-}
-/*もっと見るボタン*/
-#product-more{
-  text-align: left;
+
+  /*プロダクト*/
+  #product {
+    margin: 0;
+    padding: 10px 20px 0 20px;
+  }
+
+  /* 外枠 */
+  #product .product-flex {
+    flex-direction: column;
+    margin-top: 0;
+  }
+
+  /* 左右のカラム　スマホでは縦並び */
+  #product-left,
+  #product-right {
+    width: 100%;
+    margin: 0;
+  }
+
+  /* 画像+説明の枠 */
+  .product-explain {
+    position: relative;
+    margin: 0;
+  }
+
+  .product-explain>h3 {
+    margin: 10px 0 10px 0;
+    font-size: 24px;
+  }
+
+  /* ABOUT US */
+  #aboutus {
+    margin: 80px 20px 80px 20px;
+  }
+
+  #aboutus>div {
+    flex-direction: column;
+  }
+
+  .culture-table th {
+    font-size: 10px;
+  }
+
+  .culture-table {
+    margin-right: 0;
+    padding-right: 20px;
+    order: 2;
+  }
+
+  .culture-img {
+    width: 100%;
+    order: 1;
+  }
+
+  .culture-img2 {
+    margin-top: 0;
+  }
+
+  .culture-num {
+    padding: 0;
+  }
+
+  .culture-description {
+    margin: 0;
+  }
+
+  /* ビジョン */
+  #vision {
+    margin: 80px 20px 80px 20px;
+  }
+
+  .vision-box>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+
+  
 }
