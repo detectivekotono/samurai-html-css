@@ -689,6 +689,13 @@ footer {
     left: 0;
   }
 
+  /* 会社概要 */
+  #company {
+    margin: 0 20px 0 20px;
+  }
 
-  
+  #company>h3 {
+    margin-bottom: 20px;
+  }
+
 }
