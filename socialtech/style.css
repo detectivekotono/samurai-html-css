@@ -478,6 +478,56 @@ footer {
   margin: 0;
 }
 
+/* mission.html用スタイル */
+/* ミッションのメインビジュアル */
+.mission-main-inner {
+  background-image: url("images/mission/mission-main.png");
+  background-repeat: no-repeat;
+  background-position-y: center;
+}
+
+#mission-title {
+  background-color: #2710d5;
+  width: 368px;
+  color: #ffffff;
+  height: 496px;
+  border-radius: 0 248px 248px 0;
+  position: relative;
+}
+
+#mission-title h1 {
+  position: absolute;
+  top: 0;
+  left: 100px;
+  font-size: 80px;
+  line-height: 1;
+}
+
+#mission-title h1 span {
+  font-size: 26px;
+}
+
+#mission-title>p {
+  position: absolute;
+  top: 350px;
+  left: 100px;
+  font-size: 16px;
+}
+
+/* ミッションページ　S2DGSの設定 */
+#mission-s2dgs {
+  padding: 20px;
+}
+
+.mission-h2 {
+  color: #2710d5;
+  font-size: 40px;
+}
+
+.mission-h2::after {
+  content: none;
+}
+
 /* スマートフォン用のスタイル */
 @media screen and (max-width:767px) {
 
