@@ -1,45 +1,32 @@
 body {
-  width: 1440px;
+  max-width: 1440px;
+  margin: 0 auto 0 auto;
+  font-family: Noto Sans Japanese;
 }
 
 header {
-  background-image: ;
-  width: 100%;
-}
-
-nav {
   display: flex;
   justify-content: space-between;
-  width: 980px;
-
 }
 
-nav>p {
+#nav {
+  font-size: 34px;
+}
+
+#nav ul {
+  display: flex;
+  padding-left: 0;
+}
+
+#nav li {
+  list-style: none;
+}
+
+li {
   font-size: 34px;
   padding: 32px 16px 32px 16px;
 }
 
-article>img {
-  width: 100%;
-  top: 140px;
-}
-
-.profile {
-  display: flex;
-}
-
-.name {
-  font-size: 24px;
-}
-
-h1 {
-  font-size: 34px;
-  text-align: center;
-}
-
-p {
-  font-size: 18px;
-}
-.profile>img{
-border-radius: 50%;
+header>h1 {
+  border: solid 1px black;
 }
