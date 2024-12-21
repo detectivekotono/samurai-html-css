@@ -1,32 +1,81 @@
 body {
   max-width: 1440px;
   margin: 0 auto 0 auto;
-  font-family: Noto Sans Japanese;
+  font-family: "Noto Sans JP", sans-serif;
+  background-color: #ffffff;
+  color: #000000;
 }
 
 header {
   display: flex;
+  position: relative;
   justify-content: space-between;
+  top: 50px;
+  left: 230px;
+  width: 980px;
 }
 
+/* ロゴの設定 */
+#logo {
+  position: relative;
+  font-size: 34px;
+  border: solid 1px #000000;
+  padding: 10px;
+}
+
+/* ナビゲーションのレイアウト */
 #nav {
   font-size: 34px;
 }
 
 #nav ul {
   display: flex;
-  padding-left: 0;
 }
 
 #nav li {
   list-style: none;
+  padding-left: 30px;
 }
 
-li {
+main>img {
+  position: relative;
+  top: 140px;
+  width: 100%;
+}
+
+#about {
+  position: relative;
+  top: 800px;
+  width: 820px;
+  height: 402px;
+  left: 310px;
+}
+
+#about h1 {
+  position: relative;
   font-size: 34px;
-  padding: 32px 16px 32px 16px;
+  text-align: center;
 }
 
-header>h1 {
-  border: solid 1px black;
+.profile {
+  display: flex;
+  position: relative;
+}
+
+.profile>img {
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 24px;
+  position: relative;
+  top: 70px;
+  left: 90px;
+}
+
+.content-li {
+  position: relative;
+  font-size: 18px;
+  top: 90px;
+  left: 100px;
 }
