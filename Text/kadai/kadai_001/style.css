@@ -4,47 +4,13 @@ body {
   font-family: "Noto Sans JP", sans-serif;
   background-color: #ffffff;
   color: #000000;
+font-size: 18px;
 }
-
-header {
+/* ヘッダー */
+header{
   display: flex;
-  position: relative;
-  justify-content: space-between;
-  top: 50px;
-  left: 230px;
-  width: 980px;
+  height: 60px;
 }
-
-/* ロゴの設定 */
-#logo {
-  position: relative;
-  font-size: 34px;
-  border: solid 1px #000000;
-  padding: 10px;
-}
-
-/* ナビゲーションのレイアウト */
-#nav {
-  font-size: 34px;
-}
-
-#nav ul {
-  display: flex;
-}
-
-#nav li {
-  list-style: none;
-  padding-left: 30px;
-}
-
-main>img {
-  position: relative;
-  top: 140px;
-  width: 100%;
-}
-
-/* ABOUTセクション */
-.about{
-display: flex;
-
+header.site-title h1{
+  
 }
