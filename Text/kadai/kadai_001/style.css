@@ -4,13 +4,13 @@ body {
   font-family: "Noto Sans JP", sans-serif;
   background-color: #ffffff;
   color: #000000;
-font-size: 18px;
 }
 /* ヘッダー */
 header{
   display: flex;
-  height: 60px;
+  height: 100px;
+  background-color: pink;
 }
-header.site-title h1{
-  
+header .site-title a{
+  font-size: 100px;
 }
