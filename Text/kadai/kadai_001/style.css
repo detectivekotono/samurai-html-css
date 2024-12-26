@@ -1,21 +1,31 @@
 body {
-  max-width: 1440px;
-  margin: 0 auto 0 auto;
+  width: 1440px;
+  margin: 0 auto;
   font-family: "Noto Sans JP", sans-serif;
-  background-color: #ffffff;
+  background-color: blue;
   color: #000000;
-
+  border: solid 3px white;
 }
+.wrapper{
+  margin: 32px 16px;
+}
+
 /* ヘッダー */
 header{
-  display: flex;
-  height: 100px;
-  line-height: 60px;
-  background-color: pink;
+display: flex;
+align-items: center;
+position: relative; 
+width: 980px;
+ height: 115px;
+padding: 32px 16px;
+ background-color: pink;  
+}
+header.wrapper{
+  margin-left: 230px;
 }
 header .site-title a{
   font-size: 34px;
-border: solid 1px #000000;
+  border: solid 1px #000000
 }
 header nav{
   margin-left: auto;
@@ -25,5 +35,11 @@ header nav ul{
 }
 header nav ul li{
   margin-right: 30px;
-
+}
+/* メインビジュアル */
+.mainvisual img{
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 140px;
 }
