@@ -2,12 +2,13 @@ body {
   width: 1440px;
   margin: 0 auto;
   font-family: "Noto Sans JP", sans-serif;
-  background-color: blue;
   color: #000000;
   border: solid 3px white;
 }
 .wrapper{
-  margin: 32px 16px;
+  max-width: 1440px;
+  margin: 0 auto;
+
 }
 
 /* ヘッダー */
@@ -16,9 +17,9 @@ display: flex;
 align-items: center;
 position: relative; 
 width: 980px;
- height: 115px;
+height: 115px;
 padding: 32px 16px;
- background-color: pink;  
+
 }
 header.wrapper{
   margin-left: 230px;
@@ -35,6 +36,12 @@ header nav ul{
 }
 header nav ul li{
   margin-right: 30px;
+}
+header nav ul li a{
+  font-size: 34px;
+}
+header man ul li a:hover{
+  opacity: 0.7;
 }
 /* メインビジュアル */
 .mainvisual img{
