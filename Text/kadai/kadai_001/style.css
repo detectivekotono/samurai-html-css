@@ -7,7 +7,6 @@ body {
 .wrapper{
   max-width: 1440px;
   margin: 0 auto;
-
 }
 
 /* ヘッダー */
@@ -21,7 +20,7 @@ padding: 32px 16px;
 
 }
 header.wrapper{
-  margin-left: 230px;
+  margin: 20px auto;
 }
 header .site-title a{
   font-size: 34px;
@@ -42,6 +41,19 @@ header nav ul li a{
 header man ul li a:hover{
   opacity: 0.7;
 }
+@media(max-width:767px){
+  .wrapper{
+    width: 375px;
+  }
+  header .site-title a{
+    font-size: 24px;
+    border: solid 1px #000000
+  }
+  header nav ul li a{
+    font-size: 24px;
+  }
+}
+
 /* メインビジュアル */
 .mainvisual img{
   width: 100%;
@@ -88,4 +100,39 @@ text-align: left;
   .about .content .text{
     margin: 0 auto;
   }
+}
+/* works */
+.works{
+text-align: center;
+padding-top: 100px;
+padding-bottom: 100px;
+}
+.works .contents{
+  display: flex;
+}
+.works .contents .content{
+  width: calc(100%/3);
+  margin-right: 15px;
+  font-size: 18px;
+
+}
+.works .contents .content:last-child{
+  margin-right: 0;
+}
+.works .contents .content img{
+  width: 100%;
+}
+@media(max-width:767px){
+  .works .contents{
+    flex-direction: column;
+  }
+  .works .contents .content{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+/* footer */
+footer{
+  text-align: center;
+  margin: 20px 0;
 }
