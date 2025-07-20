@@ -70,20 +70,20 @@ margin-bottom: 70px;
   margin: 60px 0 50px 0;
 }
 /* about */
-.about{
+#about{
   text-align: center;
   padding-top: 100px;
 }
 
-.about .content{
+#about,.content{
   display: flex;
 justify-content: center;
 }
-.about .content img{
+#about,.content img{
   border-radius: 50%;
   margin-right: 100px;
 }
-.about .content .text{
+#about,.content,.text{
 text-align: left;
 }
 .profile-list li{
@@ -91,42 +91,42 @@ text-align: left;
   margin-left: 50px;
 }
 @media(max-width:767px){
-  .about .content{
+  #about,.content{
     flex-direction: column;
   }
-  .about .content img{
+  #about,.content img{
     margin: 0 auto;
   }
-  .about .content .text{
+  #about,.content,.text{
     margin: 0 auto;
   }
 }
 /* works */
-.works{
+#works{
 text-align: center;
 padding-top: 100px;
 padding-bottom: 100px;
 }
-.works .contents{
+#works,.contents{
   display: flex;
 }
-.works .contents .content{
+#works,.contents,.content{
   width: calc(100%/3);
   margin-right: 15px;
   font-size: 18px;
 
 }
-.works .contents .content:last-child{
+#works,.contents,.content:last-child{
   margin-right: 0;
 }
-.works .contents .content img{
+#works ,.contents,.content img{
   width: 100%;
 }
 @media(max-width:767px){
-  .works .contents{
+  #works,.contents{
     flex-direction: column;
   }
-  .works .contents .content{
+  #works,.contents,.content{
     width: 100%;
     margin-bottom: 30px;
   }
