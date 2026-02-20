@@ -1,5 +1,6 @@
 {
   "cSpell.enabledFileTypes": {
     "html": false
-  }
+  },
+  "liveServer.settings.port": 5501
 }
